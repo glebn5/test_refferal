@@ -1,0 +1,52 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pdb
+*.so
+
+# Virtual environment
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.sqlite3
+db.sqlite3
+db_backup/
+media/
+staticfiles/
+local_settings.py
+
+# IDEs
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# OS generated
+.DS_Store
+Thumbs.db
+
+# Secret config
+.env
+.env.*
+
+# Migrations (опционально)
+**/migrations/*.py
+**/migrations/__pycache__/
+
+# Node/npm (если используется фронт)
+node_modules/
+build/
+dist/
+npm-debug.log
+yarn.lock
+package-lock.json
